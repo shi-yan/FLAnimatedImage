@@ -8,6 +8,6 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(name: "FLAnimatedImage")
+        .target(name: "FLAnimatedImage", path: "FLAnimatedImage/")
     ]
 )
